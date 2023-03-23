@@ -1,3 +1,4 @@
+/*Universal Sector applied to all content*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -6,37 +7,6 @@
 
 body {
     background-color: #d9dcd6;
-}
-
-.header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
-}
-
-.header h1 {
-    display: inline-block;
-    font-size: 48px;
-}
-
-.seo {
-    color: #d9dcd6;
-}
-
-.header div {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
-
-
-.header div ul li {
-    display: inline-block;
-    margin-left: 25px;
-    list-style-type: none;
 }
 
 a {
@@ -48,12 +18,52 @@ p {
     font-size: 16px;
 }
 
+/*CSS code for Heading and Navigation*/
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.seo {
+    color: #d9dcd6;
+}
+
+header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+
+header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+    list-style-type: none;
+}
+
+/*Main figure*/
 .hero {
     width: 100%;
     margin-bottom: 25px;
     background-position: center;
 }
+/* Styling for Aside and Article */
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
 
+/* Styling for Article */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -66,12 +76,21 @@ p {
     max-height: 200px;
 }
 
-main {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+.articleContent {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
 }
 
+.articleHeader {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Styling for Aside Elements */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -99,20 +118,7 @@ aside {
     max-width: 150px;
 }
 
-.articleContent {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.articleHeader {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Styling for Footer Elements */
 footer {
     padding: 30px;
     clear: both;
